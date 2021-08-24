@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "id" {
-  bucket = "Anish-bucket"
+  bucket = "anish-bucket"
   acl    = "private"
 
   tags = {
