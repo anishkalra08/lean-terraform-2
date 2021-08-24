@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "b" {
   acl    = "private"
 
   tags = {
-    Name        = "Anish-s3"
-    Environment = "Dev"
+    Name        = var.s3_name
+    Environment = var.s3_env
   }
 }
